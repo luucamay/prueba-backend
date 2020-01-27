@@ -7,7 +7,7 @@ var express = require('express'),
   jwt = require('jsonwebtoken');
 
 // SETUP
-var   port = Number(process.env.PORT || 8080);
+var   port = Number(process.env.PORT || 80);
 
 // Set up body-parser.
 app.use(bodyParser.json());
